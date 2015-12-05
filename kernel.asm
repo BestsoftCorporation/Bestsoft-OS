@@ -525,7 +525,7 @@ filler db '', 0
 message db 'Mouse click at X: ', 0
 seperator db ' Y: ', 0
 
-%include 'C:\Users\Marko\Documents\BestsoftSpace\Projects\OS\mouse.lib'
+%include 'mouse.lib'
 overmousemessages:
 
 cmp eax , 4
